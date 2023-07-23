@@ -183,6 +183,15 @@ void MainWindow::Ability()
         else if(ui->comboBox_3->currentText() == codec->toUnicode("±ùÁÛ·Û"))
         {
             correct_D *= 2;
+        }else if(ui->comboBox_3->currentText() == codec->toUnicode("ÔÖ»öÖ®¼ò"))
+        {
+            correct_B *= 4.0/3;
+        }else if(ui->comboBox_3->currentText() == codec->toUnicode("ÔÖ»öÖ®¶¦"))
+        {
+            correct_D *= 4.0/3;
+        }else if(ui->comboBox_3->currentText() == codec->toUnicode("ÍþÏÅ"))
+        {
+            correct_B *= 1.5;
         }
     }
 }

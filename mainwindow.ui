@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>宝可梦综合耐久计算器v1.4 by Jokerjay</string>
+   <string>宝可梦综合耐久计算器v1.5 by Jokerjay</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton">
@@ -718,6 +718,21 @@
        <string>冰鳞粉</string>
       </property>
      </item>
+     <item>
+      <property name="text">
+       <string>灾祸之简</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>灾祸之鼎</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>威吓</string>
+      </property>
+     </item>
     </widget>
     <widget class="QCheckBox" name="checkBox_5">
      <property name="geometry">
@@ -916,7 +931,7 @@
      <x>0</x>
      <y>0</y>
      <width>705</width>
-     <height>21</height>
+     <height>17</height>
     </rect>
    </property>
   </widget>
